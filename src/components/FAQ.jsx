@@ -3,24 +3,34 @@ import { motion } from "framer-motion";
 
 const FAQData = [
   {
-    question: "Can I upgrade or downgrade my plan at any time?",
+    question: "How can I contact you? ",
     answer:
-      "Yes, you can easily upgrade or downgrade your plan at any time. Simply navigate to the account settings in your dashboard and choose the desired plan. The changes will be reflected immediately, and any adjustments in pricing will be applied on your next billing cycle. Our support team is more than happy to provide guidance and recommendations.",
+      "You can contact me through my email jamhbaleanuj@gmail.com. OR you can contact me through twitter and linkedIn given in the footer of this webpage",
   },
   {
-    question: "How to claim your 25% discount offer?",
+    question:
+      "What are some of the changes that can be done to the Java Point of sales app?",
     answer:
-      "To claim your 25% discount, simply sign up for an account and enter the promotional code at checkout. The discount will be applied automatically to your purchase.",
+      "There are great changes that can be done to the Java Point of Sales Software. Some of which can be, implenting other database technologies such as firebase, mongoDB atlas cloud, etc so that the Software can be installed in many different workstations in different locations and will still share same information. OR using a H2 database so that we don't have to install MYSQL on every workstation",
   },
   {
-    question: "What's your refund policy?",
+    question: "How can I make changes to the Reports?",
     answer:
-      "We offer a 30-day money-back guarantee on all our plans. If you're not satisfied with our product, simply contact our support team within 30 days of purchase for a full refund.",
+      "There are 2 ways you can make changes to the Reports. 1) If you know the JRXML, you can directly edit the JRXML code present OR 2) Download the IReport version 5.6.0 and open your JRXML file in it, this way you can use GUI to make changes to the report by a simple drag and drop",
   },
   {
-    question: "How to get support for the product?",
+    question: "Want to make changes in the PDF documentation?",
     answer:
-      "Our dedicated support team is here to help. You can reach out to us through the contact form on our website, send an email, or engage with us via live chat. We'll be happy to assist you with any questions or concerns you may have",
+      "Unfortunately, you cannot make direct changes into the PDF documentation, But you can mail me at jambhaleanuj@gmail.com and the required changes will be done to the documentation.",
+  },
+  {
+    question: "Is it necessary to use IReport version 5.6.0 only? ",
+    answer: "Yes, newer Ireport version may not work with the code present.",
+  },
+  {
+    question: "Is the software suitable for large scale use? ",
+    answer:
+      "No, not at the moment. This project is only suitable as a Very Small scale use case, since it is not tested in a large scale enviroment and may posses some bugs or security flaws . If you desire to use this project for a large scale use, many change's are needed to be made to the code. ",
   },
 ];
 

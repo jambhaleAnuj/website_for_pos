@@ -8,21 +8,6 @@ const footerData = [
     title: "Products",
     items: ["Services", "About Us", "News and Stories", "Roadmap"],
   },
-  {
-    title: "Important Links",
-    items: [
-      "Organization Team",
-      "Our Journeys",
-      "Pricing Plans",
-      "Roadmap",
-      "Terms & Conditions",
-      "Privacy Policy",
-    ],
-  },
-  {
-    title: "Company",
-    items: ["About Us", "Jobs", "Press", "Contact Us"],
-  },
 ];
 
 export const Footer = () => {
@@ -37,21 +22,10 @@ export const Footer = () => {
                   <TailcastLogo />
                 </div>
                 <div className="text-white font-['Inter'] font-bold text-xl">
-                  Tailcast
+                  Anuj Jambhale
                 </div>
               </div>
-              <p className="mb-10 mt-4 sm:w-[22rem] lg:w-[20rem] xl:w-[24rem] text-gray-400 leading-loose text-center lg:text-left mx-auto lg:mx-0">
-                Dashboard images were made using free Dark Admin dashboard that
-                you can find
-                <a
-                  href="https://bootstrapious.com/p/bootstrap-4-dark-admin"
-                  target="_blank"
-                  className="text-gray-100 ml-1.5 "
-                  aria-label="DarkAdmin"
-                >
-                  here.
-                </a>
-              </p>
+
               <div className="w-36 mx-auto lg:mx-0">
                 <a
                   className="inline-block w-10  h-10 mr-2 p-2 bg-customDarkBg2 custom-border-gray  hover:bg-gray-700 rounded-xl"
@@ -60,7 +34,7 @@ export const Footer = () => {
                   <FacebookIcon />
                 </a>
                 <a
-                  className="inline-block w-10  h-10 mr-2 p-2 bg-customDarkBg2 custom-border-gray  hover:bg-gray-700 rounded-xl"
+                  className="inline-block w-10  h-10 mr-2 p-2 bg-customDarkBg2 custom-border-gray  hover:bg-gray-700 rounded-xl "
                   href="#"
                 >
                   <TwitterIcon />
@@ -71,58 +45,6 @@ export const Footer = () => {
                 >
                   <InstagramIcon />
                 </a>
-              </div>
-            </div>
-            <div className="w-full lg:w-2/3  lg:pl-16 hidden lg:flex flex-wrap justify-between">
-              <div className="w-full md:w-1/3 lg:w-auto mb-16 md:mb-0">
-                <h3 className="mb-6 text-2xl font-bold text-white">Products</h3>
-                <ul>
-                  {footerData[0].items.map((item, i) => (
-                    <li key={i} className="mb-4">
-                      <a
-                        className="text-gray-400 hover:text-gray-300"
-                        href="#"
-                        aria-label=""
-                      >
-                        {item}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              <div className="w-full md:w-1/3 lg:w-auto mb-16 md:mb-0">
-                <h3 className="mb-6 text-2xl font-bold text-white">
-                  Important Links
-                </h3>
-                <ul>
-                  {footerData[1].items.map((item, i) => (
-                    <li key={i} className="mb-4">
-                      <a
-                        className="text-gray-400 hover:text-gray-300"
-                        href="#"
-                        aria-label=""
-                      >
-                        {item}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              <div className="w-full md:w-1/3 lg:w-auto">
-                <h3 className="mb-6 text-2xl font-bold text-white">Company</h3>
-                <ul>
-                  {footerData[2].items.map((item, i) => (
-                    <li key={i} className="mb-4">
-                      <a
-                        className="text-gray-400 hover:text-gray-300"
-                        href="#"
-                        aria-label=""
-                      >
-                        {item}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
               </div>
             </div>
           </div>
