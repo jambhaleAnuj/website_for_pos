@@ -1,4 +1,1 @@
-# website_for_pos
-# website_for_pos
-# website_for_pos
-# website_for_pos
+# website for java point of sales using Android barcode scanner application
