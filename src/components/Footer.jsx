@@ -2,7 +2,8 @@ import { FacebookIcon } from "../assets/icons/FacebookIcon";
 import { InstagramIcon } from "../assets/icons/InstagramIcon";
 import { TailcastLogo } from "../assets/logos/TailcastLogo";
 import { TwitterIcon } from "../assets/icons/TwitterIcon";
-
+import { LinkdinIcon } from "../assets/icons/LinkdinIcon";
+import { GithubIcon } from "../assets/icons/GithubIcon";
 const footerData = [
   {
     title: "Products",
@@ -18,32 +19,30 @@ export const Footer = () => {
           <div className="flex flex-wrap">
             <div className="w-full lg:w-1/3 mb-16 lg:mb-0">
               <div className="flex justify-center lg:justify-start items-center grow basis-0">
-                <div className="text-white mr-2 text-6xl">
-                  <TailcastLogo />
-                </div>
                 <div className="text-white font-['Inter'] font-bold text-xl">
                   Anuj Jambhale
                 </div>
               </div>
-
-              <div className="w-36 mx-auto lg:mx-0">
-                <a
-                  className="inline-block w-10  h-10 mr-2 p-2 bg-customDarkBg2 custom-border-gray  hover:bg-gray-700 rounded-xl"
-                  href="#"
-                >
-                  <FacebookIcon />
-                </a>
+              <br></br>
+              <div className="w-56 mx-auto lg:mx-0">
                 <a
                   className="inline-block w-10  h-10 mr-2 p-2 bg-customDarkBg2 custom-border-gray  hover:bg-gray-700 rounded-xl "
-                  href="#"
+                  href="https://twitter.com/anujjambhale"
                 >
                   <TwitterIcon />
                 </a>
+
                 <a
                   className="inline-block w-10  h-10 mr-2 p-2 bg-customDarkBg2 custom-border-gray  hover:bg-gray-700 rounded-xl"
-                  href="#"
+                  href="https://www.linkedin.com/in/anuj-jambhale-856689245/"
                 >
-                  <InstagramIcon />
+                  <LinkdinIcon />
+                </a>
+                <a
+                  className="inline-block w-10  h-10 mr-2 p-2 bg-customDarkBg2 custom-border-gray  hover:bg-gray-700 rounded-xl"
+                  href="https://www.github.com/jambhaleAnuj"
+                >
+                  <GithubIcon />
                 </a>
               </div>
             </div>
