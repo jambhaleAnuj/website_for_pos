@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-import { TailcastLogo } from "../assets/logos/TailcastLogo";
 import { GithubIcon } from "../assets/icons/GithubIcon";
 
 const navbarLinks = [
@@ -25,7 +24,9 @@ export const Navbar = () => {
         >
           <a className="navbar-link" href="#home" aria-label="Home">
             <div className="flex justify-start items-center grow basis-0">
-              <div className="text-white mr-2 text-6xl"></div>
+              <div className="text-white mr-2 text-6xl">
+                <img src="/AJ_logo.png" width={30} />
+              </div>
               <div className="text-white font-['Inter'] font-bold text-xl">
                 Anuj Jambhale
               </div>
